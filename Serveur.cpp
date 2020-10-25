@@ -11,12 +11,14 @@ Serveur::Serveur(float humi, float temp, int sound, bool light){
     scheduler.light = light;
 }
 
+Serveur::~Serveur() {};
+
 void Serveur::setLogActivation(char c) {
     if ( c == 'Y')
     {
         logActivation = true;
     }
-    else
+    else if( c == 'N')
     {
         logActivation = false;
     }
@@ -27,7 +29,7 @@ void Serveur::setConsolActivation(char c) {
     {
         consolActivation = true;
     }
-    else
+    else if (c == 'N')
     {
         consolActivation = false;
     }
@@ -61,7 +63,7 @@ void Serveur::consolWrite(std::ostream &flux) const {
         flux << scheduler.humidity << "g/m³";
         flux << scheduler.temp << "°C";
         flux << scheduler.sound << "dB³";
-        flux << scheduler.light << "lx³";
+        flux << scheduler.light << "lx";
     }
 }
 

@@ -1,10 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include "Serveur.h"
-#include "Temperature.h"
-#include "Humidity.h"
-#include "Sound.h"
-#include "Light.h"
 #include <thread>
 
 using namespace std;
@@ -19,84 +15,79 @@ int main(){
     int c=0;
     bool d=0;
 
-    int compteur=0;
-
     char reponseLog = ' ';
-    while(reponseLog != 'O' && reponseLog != 'N')
+    while(reponseLog != 'Y' && reponseLog != 'N')
     {
-        cout << "Voulez-vous stocker les données renvoyées par les capteurs ? (O/N)" << endl; /// On demande à l'utilisateur si il veut stocker ces données
+        cout << "Do you want to store the data ? (Y/N)" << endl;
         cin >> reponseLog;
         cout << endl;
     }
 
     char reponseConsol = ' ';
-    while(reponseConsol != 'O' && reponseConsol != 'N')
+    while(reponseConsol != 'Y' && reponseConsol != 'N')
     {
-        cout << "Voulez-vous afficher les données renvoyées par les capteurs ? (O/N)" << endl; /// On demande à l'utilisateur si il souhaite afficher les données dans la console
+        cout << "Do you want to see the data ? (Y/N)" << endl;
         cin >> reponseConsol;
         cout << endl;
     }
 
-    Serveur boeing(a,b,c,d); /// On initialise notre serveur avec nos variables égales à 0
+    Serveur example(a,b,c,d);
 
-    boeing.dataRcv(8); /// On reçoit les premières données du Scheduler (qui proviennent des capteurs) - on met 8 en paramètre puisque c'est la première réception de donnée et que l'on veut
-    /// par conséquent que les 4 données soient réceptionnées en même temps
+    example.dataRcv(0);
+    example.setConsolActivation(reponseConsol);
+    example.setLogActivation(reponseLog);
 
-    boeing.setConsolActivation(reponseConsol);
-    boeing.setLogActivation(reponseLog);
-
-    cout << boeing << endl; /// On affiche boeing dans la console si l'utilisateur le désire
+    cout << example << endl;
 
 
     if(H && T && S && L)
     {
-        boeing.getdis(1);           /// Et on les stocke (ou non)
-        H << boeing << endl;
+        example.getdis(1);
+        H << example << endl;
 
-        boeing.getdis(2);
-        T << boeing << endl;
+        example.getdis(2);
+        T << example << endl;
 
-        boeing.getdis(3);
-        S << boeing << endl;
+        example.getdis(3);
+        S << example << endl;
 
-        boeing.getdis(4);
-        L << boeing << endl;
+        example.getdis(4);
+        L << example << endl;
     }
 
     else
     {
-        cout <<" ERREUR : impossible d'ouvrir le fichier." << endl;
+        cout <<" ERREUR 1 " << endl;
     }
 
 
-    for(int i=0;i<100;i++)    /// Faire varier i en fonction du temps de vol où l'on veut surveiller les données des capteurs
+    for(int i=0;i<20;i++)
     {
-        boeing.dataRcv(compteur);
+        example.dataRcv(0);
 
-        cout << boeing << endl; /// Les nouvelles valeurs sont arrivées, on les affiche (ou non)
+        cout << example << endl;
 
         if(H && T && S && L)
         {
-            boeing.getdis(1);               /// Et on les stocke (ou non)
-            H << boeing << endl;
+            example.getdis(1);
+            H << example << endl;
 
-            boeing.getdis(2);
-            T << boeing << endl;
+            example.getdis(2);
+            T << example << endl;
 
-            boeing.getdis(3);
-            S << boeing << endl;
+            example.getdis(3);
+            S << example << endl;
 
-            boeing.getdis(4);
-            L << boeing << endl;
+            example.getdis(4);
+            L << example << endl;
         }
         else
         {
-            cout <<" ERREUR : impossible d'ouvrir le fichier." << endl;
+            cout <<" ERREUR 2 " << endl;
         }
 
-        this_thread::sleep_for(chrono::seconds(1)); /// On met en pause le programme le temps d'une seconde (modifiable)
+        this_thread::sleep_for(chrono::seconds(1));
 
-        compteur++;  /// Sert dans dataRcv à savoir quelles données recevoir (fréquence)
     }
 
     return 0;

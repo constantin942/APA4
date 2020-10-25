@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-D:/CLion_project/AP4A_project1/cours_mercredi.cpp
-stdio.h
--
-string.h
--
+D:/CLion_project/AP4A_project1/Scheduler.h
+
+D:/CLion_project/AP4A_project1/Serveur.h
+Scheduler.h
+D:/CLion_project/AP4A_project1/Scheduler.h
 iostream
+-
+
+D:/CLion_project/AP4A_project1/main.cpp
+iostream
+-
+fstream
+-
+Serveur.h
+D:/CLion_project/AP4A_project1/Serveur.h
+thread
 -
 

@@ -9,7 +9,7 @@ private:
     float humidity;
     float temp;
     int sound;
-    bool light;
+    int light;
 public:
     void rcvHumidity();
     void rcvTemp();

@@ -36,23 +36,24 @@ void Scheduler::rcvLight() {
 }
 
 void Scheduler::rcvData(int dis) {
-    if(dis = 1)
+    if(dis = 1|0)
     {
         rcvHumidity();
     }
 
-    if(dis = 2)
+    if(dis = 2|0)
     {
         rcvTemp();
     }
 
-    if(dis = 3)
+    if(dis = 3|0)
     {
         rcvSound();
     }
 
-    if(dis = 4)
+    if(dis = 4|0)
     {
         rcvLight();
     }
+
 }
