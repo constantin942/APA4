@@ -80,6 +80,66 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/CLion_project/AP4A_project1/APA4.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Humidity.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Humidity.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Light.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Light.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Scheduler.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Scheduler.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Sensor.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Sensor.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Serveur.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Serveur.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Sound.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Sound.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Temperature.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/Temperature.h">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/cours_mercredi.cpp">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/data_humidity.txt">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/data_light.txt">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/data_sound.txt">
+			<Option target="AP4A_project1"/>
+		</Unit>
+		<Unit filename="D:/CLion_project/AP4A_project1/data_temperature.txt">
+			<Option target="AP4A_project1"/>
+		</Unit>
 		<Unit filename="D:/CLion_project/AP4A_project1/main.cpp">
 			<Option target="AP4A_project1"/>
 		</Unit>

@@ -76,9 +76,48 @@ include CMakeFiles/AP4A_project1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AP4A_project1.dir/flags.make
 
+CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.obj: ../cours_mercredi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\cours_mercredi.cpp.obj -c D:\CLion_project\AP4A_project1\cours_mercredi.cpp
+
+CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\cours_mercredi.cpp > CMakeFiles\AP4A_project1.dir\cours_mercredi.cpp.i
+
+CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\cours_mercredi.cpp -o CMakeFiles\AP4A_project1.dir\cours_mercredi.cpp.s
+
+CMakeFiles/AP4A_project1.dir/Humidity.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Humidity.cpp.obj: ../Humidity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AP4A_project1.dir/Humidity.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Humidity.cpp.obj -c D:\CLion_project\AP4A_project1\Humidity.cpp
+
+CMakeFiles/AP4A_project1.dir/Humidity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Humidity.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Humidity.cpp > CMakeFiles\AP4A_project1.dir\Humidity.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Humidity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Humidity.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Humidity.cpp -o CMakeFiles\AP4A_project1.dir\Humidity.cpp.s
+
+CMakeFiles/AP4A_project1.dir/Light.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Light.cpp.obj: ../Light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AP4A_project1.dir/Light.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Light.cpp.obj -c D:\CLion_project\AP4A_project1\Light.cpp
+
+CMakeFiles/AP4A_project1.dir/Light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Light.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Light.cpp > CMakeFiles\AP4A_project1.dir\Light.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Light.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Light.cpp -o CMakeFiles\AP4A_project1.dir\Light.cpp.s
+
 CMakeFiles/AP4A_project1.dir/main.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
 CMakeFiles/AP4A_project1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AP4A_project1.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AP4A_project1.dir/main.cpp.obj"
 	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\main.cpp.obj -c D:\CLion_project\AP4A_project1\main.cpp
 
 CMakeFiles/AP4A_project1.dir/main.cpp.i: cmake_force
@@ -89,19 +128,100 @@ CMakeFiles/AP4A_project1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/main.cpp.s"
 	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\main.cpp -o CMakeFiles\AP4A_project1.dir\main.cpp.s
 
+CMakeFiles/AP4A_project1.dir/Sensor.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Sensor.cpp.obj: ../Sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AP4A_project1.dir/Sensor.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Sensor.cpp.obj -c D:\CLion_project\AP4A_project1\Sensor.cpp
+
+CMakeFiles/AP4A_project1.dir/Sensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Sensor.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Sensor.cpp > CMakeFiles\AP4A_project1.dir\Sensor.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Sensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Sensor.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Sensor.cpp -o CMakeFiles\AP4A_project1.dir\Sensor.cpp.s
+
+CMakeFiles/AP4A_project1.dir/Serveur.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Serveur.cpp.obj: ../Serveur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AP4A_project1.dir/Serveur.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Serveur.cpp.obj -c D:\CLion_project\AP4A_project1\Serveur.cpp
+
+CMakeFiles/AP4A_project1.dir/Serveur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Serveur.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Serveur.cpp > CMakeFiles\AP4A_project1.dir\Serveur.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Serveur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Serveur.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Serveur.cpp -o CMakeFiles\AP4A_project1.dir\Serveur.cpp.s
+
+CMakeFiles/AP4A_project1.dir/Scheduler.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Scheduler.cpp.obj: ../Scheduler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AP4A_project1.dir/Scheduler.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Scheduler.cpp.obj -c D:\CLion_project\AP4A_project1\Scheduler.cpp
+
+CMakeFiles/AP4A_project1.dir/Scheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Scheduler.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Scheduler.cpp > CMakeFiles\AP4A_project1.dir\Scheduler.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Scheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Scheduler.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Scheduler.cpp -o CMakeFiles\AP4A_project1.dir\Scheduler.cpp.s
+
+CMakeFiles/AP4A_project1.dir/Sound.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Sound.cpp.obj: ../Sound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AP4A_project1.dir/Sound.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Sound.cpp.obj -c D:\CLion_project\AP4A_project1\Sound.cpp
+
+CMakeFiles/AP4A_project1.dir/Sound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Sound.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Sound.cpp > CMakeFiles\AP4A_project1.dir\Sound.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Sound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Sound.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Sound.cpp -o CMakeFiles\AP4A_project1.dir\Sound.cpp.s
+
+CMakeFiles/AP4A_project1.dir/Temperature.cpp.obj: CMakeFiles/AP4A_project1.dir/flags.make
+CMakeFiles/AP4A_project1.dir/Temperature.cpp.obj: ../Temperature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AP4A_project1.dir/Temperature.cpp.obj"
+	D:\Software\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AP4A_project1.dir\Temperature.cpp.obj -c D:\CLion_project\AP4A_project1\Temperature.cpp
+
+CMakeFiles/AP4A_project1.dir/Temperature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP4A_project1.dir/Temperature.cpp.i"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLion_project\AP4A_project1\Temperature.cpp > CMakeFiles\AP4A_project1.dir\Temperature.cpp.i
+
+CMakeFiles/AP4A_project1.dir/Temperature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP4A_project1.dir/Temperature.cpp.s"
+	D:\Software\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLion_project\AP4A_project1\Temperature.cpp -o CMakeFiles\AP4A_project1.dir\Temperature.cpp.s
+
 # Object files for target AP4A_project1
 AP4A_project1_OBJECTS = \
-"CMakeFiles/AP4A_project1.dir/main.cpp.obj"
+"CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Humidity.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Light.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/main.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Sensor.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Serveur.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Scheduler.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Sound.cpp.obj" \
+"CMakeFiles/AP4A_project1.dir/Temperature.cpp.obj"
 
 # External object files for target AP4A_project1
 AP4A_project1_EXTERNAL_OBJECTS =
 
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Humidity.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Light.cpp.obj
 AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/main.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Sensor.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Serveur.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Scheduler.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Sound.cpp.obj
+AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/Temperature.cpp.obj
 AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/build.make
 AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/linklibs.rsp
 AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/objects1.rsp
 AP4A_project1.exe: CMakeFiles/AP4A_project1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AP4A_project1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLion_project\AP4A_project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable AP4A_project1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AP4A_project1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

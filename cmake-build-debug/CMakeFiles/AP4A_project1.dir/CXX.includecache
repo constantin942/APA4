@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/CLion_project/AP4A_project1/main.cpp
-iostream
--
+D:/CLion_project/AP4A_project1/cours_mercredi.cpp
 stdio.h
+-
+string.h
+-
+iostream
 -
 

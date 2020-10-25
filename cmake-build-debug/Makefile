@@ -142,6 +142,222 @@ AP4A_project1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/build
 .PHONY : AP4A_project1/fast
 
+Humidity.obj: Humidity.cpp.obj
+
+.PHONY : Humidity.obj
+
+# target to build an object file
+Humidity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Humidity.cpp.obj
+.PHONY : Humidity.cpp.obj
+
+Humidity.i: Humidity.cpp.i
+
+.PHONY : Humidity.i
+
+# target to preprocess a source file
+Humidity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Humidity.cpp.i
+.PHONY : Humidity.cpp.i
+
+Humidity.s: Humidity.cpp.s
+
+.PHONY : Humidity.s
+
+# target to generate assembly for a file
+Humidity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Humidity.cpp.s
+.PHONY : Humidity.cpp.s
+
+Light.obj: Light.cpp.obj
+
+.PHONY : Light.obj
+
+# target to build an object file
+Light.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Light.cpp.obj
+.PHONY : Light.cpp.obj
+
+Light.i: Light.cpp.i
+
+.PHONY : Light.i
+
+# target to preprocess a source file
+Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Light.cpp.i
+.PHONY : Light.cpp.i
+
+Light.s: Light.cpp.s
+
+.PHONY : Light.s
+
+# target to generate assembly for a file
+Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Light.cpp.s
+.PHONY : Light.cpp.s
+
+Scheduler.obj: Scheduler.cpp.obj
+
+.PHONY : Scheduler.obj
+
+# target to build an object file
+Scheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Scheduler.cpp.obj
+.PHONY : Scheduler.cpp.obj
+
+Scheduler.i: Scheduler.cpp.i
+
+.PHONY : Scheduler.i
+
+# target to preprocess a source file
+Scheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Scheduler.cpp.i
+.PHONY : Scheduler.cpp.i
+
+Scheduler.s: Scheduler.cpp.s
+
+.PHONY : Scheduler.s
+
+# target to generate assembly for a file
+Scheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Scheduler.cpp.s
+.PHONY : Scheduler.cpp.s
+
+Sensor.obj: Sensor.cpp.obj
+
+.PHONY : Sensor.obj
+
+# target to build an object file
+Sensor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Sensor.cpp.obj
+.PHONY : Sensor.cpp.obj
+
+Sensor.i: Sensor.cpp.i
+
+.PHONY : Sensor.i
+
+# target to preprocess a source file
+Sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Sensor.cpp.i
+.PHONY : Sensor.cpp.i
+
+Sensor.s: Sensor.cpp.s
+
+.PHONY : Sensor.s
+
+# target to generate assembly for a file
+Sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Sensor.cpp.s
+.PHONY : Sensor.cpp.s
+
+Serveur.obj: Serveur.cpp.obj
+
+.PHONY : Serveur.obj
+
+# target to build an object file
+Serveur.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Serveur.cpp.obj
+.PHONY : Serveur.cpp.obj
+
+Serveur.i: Serveur.cpp.i
+
+.PHONY : Serveur.i
+
+# target to preprocess a source file
+Serveur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Serveur.cpp.i
+.PHONY : Serveur.cpp.i
+
+Serveur.s: Serveur.cpp.s
+
+.PHONY : Serveur.s
+
+# target to generate assembly for a file
+Serveur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Serveur.cpp.s
+.PHONY : Serveur.cpp.s
+
+Sound.obj: Sound.cpp.obj
+
+.PHONY : Sound.obj
+
+# target to build an object file
+Sound.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Sound.cpp.obj
+.PHONY : Sound.cpp.obj
+
+Sound.i: Sound.cpp.i
+
+.PHONY : Sound.i
+
+# target to preprocess a source file
+Sound.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Sound.cpp.i
+.PHONY : Sound.cpp.i
+
+Sound.s: Sound.cpp.s
+
+.PHONY : Sound.s
+
+# target to generate assembly for a file
+Sound.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Sound.cpp.s
+.PHONY : Sound.cpp.s
+
+Temperature.obj: Temperature.cpp.obj
+
+.PHONY : Temperature.obj
+
+# target to build an object file
+Temperature.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Temperature.cpp.obj
+.PHONY : Temperature.cpp.obj
+
+Temperature.i: Temperature.cpp.i
+
+.PHONY : Temperature.i
+
+# target to preprocess a source file
+Temperature.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Temperature.cpp.i
+.PHONY : Temperature.cpp.i
+
+Temperature.s: Temperature.cpp.s
+
+.PHONY : Temperature.s
+
+# target to generate assembly for a file
+Temperature.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/Temperature.cpp.s
+.PHONY : Temperature.cpp.s
+
+cours_mercredi.obj: cours_mercredi.cpp.obj
+
+.PHONY : cours_mercredi.obj
+
+# target to build an object file
+cours_mercredi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.obj
+.PHONY : cours_mercredi.cpp.obj
+
+cours_mercredi.i: cours_mercredi.cpp.i
+
+.PHONY : cours_mercredi.i
+
+# target to preprocess a source file
+cours_mercredi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.i
+.PHONY : cours_mercredi.cpp.i
+
+cours_mercredi.s: cours_mercredi.cpp.s
+
+.PHONY : cours_mercredi.s
+
+# target to generate assembly for a file
+cours_mercredi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AP4A_project1.dir\build.make CMakeFiles/AP4A_project1.dir/cours_mercredi.cpp.s
+.PHONY : cours_mercredi.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +394,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AP4A_project1
+	@echo ... Humidity.obj
+	@echo ... Humidity.i
+	@echo ... Humidity.s
+	@echo ... Light.obj
+	@echo ... Light.i
+	@echo ... Light.s
+	@echo ... Scheduler.obj
+	@echo ... Scheduler.i
+	@echo ... Scheduler.s
+	@echo ... Sensor.obj
+	@echo ... Sensor.i
+	@echo ... Sensor.s
+	@echo ... Serveur.obj
+	@echo ... Serveur.i
+	@echo ... Serveur.s
+	@echo ... Sound.obj
+	@echo ... Sound.i
+	@echo ... Sound.s
+	@echo ... Temperature.obj
+	@echo ... Temperature.i
+	@echo ... Temperature.s
+	@echo ... cours_mercredi.obj
+	@echo ... cours_mercredi.i
+	@echo ... cours_mercredi.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
